@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="es" >
+    <head>
+        <title>..:: Ejemplo de JS con formulario ::..</title>
+    </head>}
+
+    <body>
+        <h1>Formulario sencillo</h1>
+        <form action="#" method="get">
+            <p>
+                Valor 1 : <input type="text" name="v1" id="id1" />
+            </p>
+            <p>
+                Valor 2 : <input type="text" name="v2" id="id2" />
+            </p>
+            <input type="button" value="SUMAR" onclick="sumar()">
+            <input type="button" value="RESTAR" onclick="restar()">
+            <input type="button" value="MULTIPLICAR" onclick="multiplicar()">
+            <input type="button" value="DIVIDIR" onclick="dividir()">
+            <input type="reset" value="LIMPIAR">
+
+        </form>
+        <p>
+            <h2>la respuesta es</h2>
+            <div id="rpta"></div>
+        </p>
+        <script src="./js/suma.js"></script>
+    </body>
+</html>
